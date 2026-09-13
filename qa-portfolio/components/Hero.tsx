@@ -1,5 +1,9 @@
 "use client";
 
+import Image from "next/image";
+import { Mail } from "lucide-react";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+
 import { useLanguage } from "./LanguageProvider";
 import { translations } from "./translations";
 
@@ -10,26 +14,93 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen bg-white px-6 py-24 text-gray-900 transition-colors duration-300 dark:bg-gray-950 dark:text-gray-100"
+      className="
+        min-h-screen
+        bg-gradient-to-br
+        from-white
+        via-slate-50
+        to-blue-50/60
+        px-6 py-24
+        text-slate-900
+        transition-colors duration-300
+
+        dark:from-[#020817]
+        dark:via-[#030a18]
+        dark:to-[#061329]
+        dark:text-slate-100
+      "
     >
-      <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-2">
+      <div className="mx-auto grid max-w-7xl items-center gap-14 lg:grid-cols-2">
+        {/* Left Column */}
         <div>
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-blue-600">
+          <p
+            className="
+              mb-4
+              text-sm
+              font-semibold
+              uppercase
+              tracking-[0.2em]
+              text-blue-600
+
+              dark:text-blue-400
+            "
+          >
             {t.eyebrow}
           </p>
 
-          <h1 className="max-w-3xl text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">
-            {t.title}
+          <h1
+            className="
+              max-w-3xl
+              text-4xl
+              font-bold
+              leading-tight
+              tracking-tight
+              text-slate-950
+
+              sm:text-5xl
+              lg:text-6xl
+
+              dark:text-white
+            "
+          >
+            {t.titleStart}{" "}
+            <span className="text-blue-600 dark:text-blue-400">
+              {t.titleHighlight}
+            </span>
           </h1>
 
-          <p className="mt-6 max-w-2xl text-lg leading-8 text-gray-600 dark:text-gray-400">
+          <p
+            className="
+              mt-6
+              max-w-2xl
+              text-lg
+              leading-8
+              text-slate-600
+
+              dark:text-slate-300
+            "
+          >
             {t.description}
           </p>
 
+          {/* Main Actions */}
           <div className="mt-8 flex flex-wrap gap-4">
             <a
               href="#projects"
-              className="rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white transition hover:bg-blue-700"
+              className="
+                rounded-lg
+                bg-blue-600
+                px-6 py-3
+                font-semibold
+                text-white
+                shadow-sm
+                transition
+
+                hover:bg-blue-700
+                hover:shadow-md
+
+                dark:hover:bg-blue-500
+              "
             >
               {t.projectsButton}
             </a>
@@ -40,20 +111,53 @@ export default function Hero() {
                   ? "/cv/cv-es.pdf"
                   : "/cv/cv-en.pdf"
               }
-              className="rounded-lg border border-gray-300 px-6 py-3 font-semibold transition hover:bg-gray-100 dark:border-gray-700 dark:hover:bg-gray-900"
               download
+              className="
+                rounded-lg
+                border border-slate-300
+                bg-white
+                px-6 py-3
+                font-semibold
+                text-slate-800
+                shadow-sm
+                transition
+
+                hover:border-blue-400
+                hover:bg-blue-50
+                hover:text-blue-700
+
+                dark:border-slate-700
+                dark:bg-slate-900/50
+                dark:text-slate-100
+                dark:hover:border-blue-500
+                dark:hover:bg-slate-800
+                dark:hover:text-blue-400
+              "
             >
               {t.cvButton}
             </a>
           </div>
 
-          <div className="mt-8 flex flex-wrap gap-6 text-sm">
+          {/* Social Links */}
+          <div className="mt-8 flex flex-wrap items-center gap-5">
             <a
-              href="https://www.linkedin.com/in/masuelmatos/"
+              href="https://www.linkedin.com/in/masuelmatos"
               target="_blank"
               rel="noreferrer"
-              className="transition hover:text-blue-600"
+              aria-label="LinkedIn"
+              className="
+                flex items-center gap-2
+                text-sm font-medium
+                text-slate-600
+                transition
+
+                hover:text-blue-600
+
+                dark:text-slate-300
+                dark:hover:text-blue-400
+              "
             >
+              <FaLinkedin size={18} />
               LinkedIn
             </a>
 
@@ -61,55 +165,162 @@ export default function Hero() {
               href="https://github.com/Masuelm04"
               target="_blank"
               rel="noreferrer"
-              className="transition hover:text-blue-600"
+              aria-label="GitHub"
+              className="
+                flex items-center gap-2
+                text-sm font-medium
+                text-slate-600
+                transition
+
+                hover:text-blue-600
+
+                dark:text-slate-300
+                dark:hover:text-blue-400
+              "
             >
+              <FaGithub size={18} />
               GitHub
             </a>
 
             <a
               href="mailto:masuelm04@gmail.com"
-              className="transition hover:text-blue-600"
+              aria-label="Email"
+              className="
+                flex items-center gap-2
+                text-sm font-medium
+                text-slate-600
+                transition
+
+                hover:text-blue-600
+
+                dark:text-slate-300
+                dark:hover:text-blue-400
+              "
             >
+              <Mail size={18} />
               Email
             </a>
           </div>
         </div>
 
-        <div className="flex justify-center">
-          <div className="flex h-80 w-80 items-center justify-center rounded-full border border-blue-500/30 bg-blue-500/10 text-center shadow-xl">
-            <span className="px-8 text-lg text-gray-500 dark:text-gray-400">
-              Your professional photo
-            </span>
+        {/* Right Column - Professional Photo */}
+        <div className="flex justify-center lg:justify-end">
+          <div
+            className="
+              relative
+              flex
+              h-80
+              w-80
+              items-center
+              justify-center
+              rounded-full
+              border border-blue-200
+              bg-gradient-to-br
+              from-blue-50
+              to-slate-100
+              p-2
+              shadow-xl
+              shadow-blue-100/50
+              transition-colors duration-300
+
+              sm:h-96
+              sm:w-96
+
+              dark:border-blue-500/30
+              dark:from-blue-950/40
+              dark:to-slate-950
+              dark:shadow-blue-950/30
+            "
+          >
+            <Image
+              src="/images/profile.jpeg"
+              alt="Masuel Matos - QA Engineer"
+              fill
+              priority
+              sizes="(max-width: 768px) 320px, 384px"
+              className="rounded-full object-cover p-2"
+            />
           </div>
         </div>
       </div>
 
-      <div className="mx-auto mt-16 grid max-w-7xl gap-6 border-t border-gray-200 pt-8 dark:border-gray-800 sm:grid-cols-3">
-        <div>
-          <p className="text-2xl font-bold">3+</p>
-          <p className="text-gray-600 dark:text-gray-400">
-            {t.projectsStat}
-          </p>
-        </div>
+      {/* Stats */}
+      <div
+        className="
+          mx-auto
+          mt-16
+          grid
+          max-w-7xl
+          gap-6
+          border-t border-slate-200
+          pt-8
 
-        <div>
-          <p className="text-2xl font-bold">
-            Playwright · Python · Pytest
-          </p>
-          <p className="text-gray-600 dark:text-gray-400">
-            {t.technologiesStat}
-          </p>
-        </div>
+          sm:grid-cols-3
 
-        <div>
-          <p className="text-2xl font-bold">
-            Web · API · Functional
-          </p>
-          <p className="text-gray-600 dark:text-gray-400">
-            {t.focusStat}
-          </p>
-        </div>
+          dark:border-slate-800
+        "
+      >
+        <Stat
+          value="3+"
+          label={t.projectsStat}
+        />
+
+        <Stat
+          value="Playwright · Python · Pytest"
+          label={t.technologiesStat}
+        />
+
+        <Stat
+          value="Web · API · Functional"
+          label={t.focusStat}
+        />
       </div>
     </section>
+  );
+}
+
+function Stat({
+  value,
+  label,
+}: {
+  value: string;
+  label: string;
+}) {
+  return (
+    <div
+      className="
+        rounded-xl
+        p-4
+        transition
+
+        hover:bg-slate-100
+
+        dark:hover:bg-slate-900/60
+      "
+    >
+      <p
+        className="
+          text-xl
+          font-bold
+          text-slate-950
+
+          dark:text-white
+        "
+      >
+        {value}
+      </p>
+
+      <p
+        className="
+          mt-1
+          text-sm
+          text-slate-500
+
+          dark:text-slate-400
+        "
+      >
+        {label}
+      </p>
+    </div>
   );
 }

@@ -9,14 +9,15 @@
   },
   "hero": {
     "eyebrow": "QA ENGINEER | QA AUTOMATION",
-    "title": "Construyendo software confiable mediante testing y automatización.",
+    "titleStart": "Construyendo software confiable mediante",
+    "titleHighlight": "testing y automatización.",
     "description": "QA Engineer e Ingeniero en Sistemas Computacionales enfocado en pruebas funcionales y automatización de pruebas. Desarrollo soluciones de testing confiables y mantenibles utilizando Playwright, Python y prácticas modernas de QA.",
     "projectsButton": "Ver mis proyectos",
     "cvButton": "Descargar CV",
     "projectsStat": "Proyectos de QA Automation",
     "technologiesStat": "Tecnologías principales",
     "focusStat": "Enfoque de testing"
-  },
+    },
   "about": {
     "eyebrow": "CONÓCEME",
     "title": "Sobre mí",
