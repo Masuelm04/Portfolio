@@ -1,5 +1,16 @@
 "use client";
 
+import type { ReactNode } from "react";
+
+import {
+  Settings,
+  Code2,
+  ShieldCheck,
+  Network,
+  Database,
+  Wrench,
+} from "lucide-react";
+
 import { useLanguage } from "./LanguageProvider";
 import { translations } from "./translations";
 
@@ -9,27 +20,27 @@ export default function Skills() {
 
   const categories = [
     {
-      icon: "⚙️",
+      icon: <Settings size={24} />,
       ...t.categories.automation,
     },
     {
-      icon: "💻",
+      icon: <Code2 size={24} />,
       ...t.categories.programming,
     },
     {
-      icon: "🛡️",
+      icon: <ShieldCheck size={24} />,
       ...t.categories.testing,
     },
     {
-      icon: "🔗",
+      icon: <Network size={24} />,
       ...t.categories.apis,
     },
     {
-      icon: "🗄️",
+      icon: <Database size={24} />,
       ...t.categories.databases,
     },
     {
-      icon: "🛠️",
+      icon: <Wrench size={24} />,
       ...t.categories.engineering,
     },
   ];
@@ -38,8 +49,8 @@ export default function Skills() {
     <section
       id="skills"
       className="
-        px-6 py-24
         bg-white
+        px-6 py-24
         text-slate-900
         transition-colors duration-300
 
@@ -48,20 +59,52 @@ export default function Skills() {
       "
     >
       <div className="mx-auto max-w-7xl">
+        {/* Section Header */}
         <div className="mb-12 max-w-3xl">
-          <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">
+          <p
+            className="
+              mb-3
+              text-sm
+              font-semibold
+              uppercase
+              tracking-[0.2em]
+              text-blue-600
+
+              dark:text-blue-400
+            "
+          >
             {t.eyebrow}
           </p>
 
-          <h2 className="text-4xl font-bold tracking-tight text-slate-950 sm:text-5xl dark:text-white">
+          <h2
+            className="
+              text-4xl
+              font-bold
+              tracking-tight
+              text-slate-950
+              sm:text-5xl
+
+              dark:text-white
+            "
+          >
             {t.title}
           </h2>
 
-          <p className="mt-5 text-lg leading-8 text-slate-600 dark:text-slate-300">
+          <p
+            className="
+              mt-5
+              text-lg
+              leading-8
+              text-slate-600
+
+              dark:text-slate-300
+            "
+          >
             {t.description}
           </p>
         </div>
 
+        {/* Skills Grid */}
         <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {categories.map((category) => (
             <SkillCard
@@ -82,13 +125,14 @@ function SkillCard({
   title,
   items,
 }: {
-  icon: string;
+  icon: ReactNode;
   title: string;
   items: string[];
 }) {
   return (
     <article
       className="
+        h-full
         rounded-2xl
         border border-slate-200
         bg-slate-50/80
@@ -105,32 +149,64 @@ function SkillCard({
         dark:hover:border-blue-500/60
       "
     >
-      <div className="mb-5 flex items-center gap-3">
+      {/* Card Header */}
+      <div className="mb-5 flex items-center gap-4">
         <div
           className="
-            flex h-11 w-11 items-center justify-center
+            flex h-12 w-12
+            shrink-0
+            items-center
+            justify-center
             rounded-xl
-            bg-blue-100
-            text-xl
+            bg-blue-50
+            text-blue-600
 
             dark:bg-blue-500/10
+            dark:text-blue-400
           "
         >
           {icon}
         </div>
 
-        <h3 className="text-xl font-semibold text-slate-950 dark:text-slate-100">
+        <h3
+          className="
+            text-xl
+            font-semibold
+            text-slate-950
+
+            dark:text-slate-100
+          "
+        >
           {title}
         </h3>
       </div>
 
+      {/* Skill List */}
       <ul className="space-y-3">
         {items.map((item) => (
           <li
             key={item}
-            className="flex items-start gap-3 text-sm text-slate-600 dark:text-slate-300"
+            className="
+              flex
+              items-start
+              gap-3
+              text-sm
+              leading-6
+              text-slate-600
+
+              dark:text-slate-300
+            "
           >
-            <span className="mt-1 text-blue-600 dark:text-blue-400">
+            <span
+              className="
+                mt-[2px]
+                shrink-0
+                text-blue-600
+
+                dark:text-blue-400
+              "
+              aria-hidden="true"
+            >
               ▸
             </span>
 
