@@ -13,9 +13,12 @@ export default function Certifications() {
       id="certifications"
       className="
         bg-white
-        px-6 py-24
+        px-4 py-20
         text-slate-900
         transition-colors duration-300
+
+        sm:px-6 sm:py-24
+        lg:px-8
 
         dark:bg-[#0f172a]
         dark:text-slate-100

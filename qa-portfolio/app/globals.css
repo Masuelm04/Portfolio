@@ -6,14 +6,22 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  color: #111827;
+}
+
 section {
   scroll-margin-top: 80px;
 }
 
-body {
-  background-color: #ffffff;
-  color: #111827;
-  transition:
-    background-color 300ms ease,
-    color 300ms ease;
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }

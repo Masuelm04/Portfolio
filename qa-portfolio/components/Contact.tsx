@@ -22,9 +22,12 @@ export default function Contact() {
       id="contact"
       className="
         bg-slate-50
-        px-6 py-24
+        px-4 py-20
         text-slate-900
         transition-colors duration-300
+
+        sm:px-6 sm:py-24
+        lg:px-8
 
         dark:bg-[#0b1220]
         dark:text-slate-100

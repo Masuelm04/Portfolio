@@ -20,9 +20,12 @@ export default function Hero() {
         from-white
         via-slate-50
         to-blue-50/60
-        px-6 py-24
+        px-4 py-20
         text-slate-900
         transition-colors duration-300
+
+        sm:px-6 sm:py-24
+        lg:px-8
 
         dark:from-[#020817]
         dark:via-[#030a18]
