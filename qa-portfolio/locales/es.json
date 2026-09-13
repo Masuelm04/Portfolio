@@ -160,5 +160,58 @@
         ]
       }
     }
+  },
+  "certifications": {
+    "eyebrow": "APRENDIZAJE CONTINUO",
+    "title": "Certificaciones",
+    "description": "Cursos y certificaciones que fortalecen mi desarrollo profesional en QA Automation, cloud, bases de datos e inteligencia artificial.",
+    "completed": "Completado",
+    "inProgress": "En progreso",
+    "viewCertificate": "Ver certificado",
+    "viewDetails": "Ver detalles",
+    "items": {
+        "playwrightPower": {
+        "title": "Playwright Power Techniques: Fast and Reliable Web Testing",
+        "description": "Técnicas avanzadas de Playwright enfocadas en automatización web confiable, eficiente y mantenible."
+        },
+        "promptEngineering": {
+        "title": "The Complete Prompt Engineering for AI Bootcamp",
+        "description": "Formación enfocada en prompt engineering, inteligencia artificial generativa e interacción práctica con sistemas modernos de IA."
+        },
+        "awsAiPractitioner": {
+        "title": "AWS Certified AI Practitioner",
+        "description": "Preparación enfocada en fundamentos de IA, machine learning, IA generativa y servicios de inteligencia artificial en AWS."
+        },
+        "relationalDatabase": {
+        "title": "Relational Database Design and Advanced Querying",
+        "description": "Curso enfocado en diseño de bases de datos relacionales, SQL y conceptos avanzados de consultas de datos."
+        },
+        "scrumFundamentals": {
+        "title": "Scrum Fundamentals",
+        "description": "Introducción a la metodología Scrum, roles, eventos y artefactos para una gestión ágil de proyectos efectiva."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "CONECTEMOS",
+    "title": "Contacto",
+    "description": "Siempre estoy abierto a nuevas oportunidades, colaboraciones y conversaciones sobre testing de software, automatización y quality engineering.",
+    "emailLabel": "Correo",
+    "linkedinLabel": "LinkedIn",
+    "githubLabel": "GitHub",
+    "locationLabel": "Ubicación",
+    "locationValue": "República Dominicana",
+    "form": {
+        "title": "Envíame un mensaje",
+        "name": "Nombre",
+        "namePlaceholder": "Tu nombre",
+        "email": "Correo electrónico",
+        "emailPlaceholder": "tu@correo.com",
+        "subject": "Asunto",
+        "subjectPlaceholder": "¿Cómo puedo ayudarte?",
+        "message": "Mensaje",
+        "messagePlaceholder": "Cuéntame sobre tu oportunidad...",
+        "submit": "Enviar mensaje"
+    }
   }
 }

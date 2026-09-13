@@ -160,5 +160,58 @@
         ]
       }
     }
+  },
+  "certifications": {
+    "eyebrow": "CONTINUOUS LEARNING",
+    "title": "Certifications",
+    "description": "Courses and certifications that support my professional growth in QA Automation, cloud, databases and artificial intelligence.",
+    "completed": "Completed",
+    "inProgress": "In Progress",
+    "viewCertificate": "View Certificate",
+    "viewDetails": "View Details",
+    "items": {
+        "playwrightPower": {
+        "title": "Playwright Power Techniques: Fast and Reliable Web Testing",
+        "description": "Advanced Playwright techniques focused on reliable, efficient and maintainable web automation."
+        },
+        "promptEngineering": {
+        "title": "The Complete Prompt Engineering for AI Bootcamp",
+        "description": "Training focused on prompt engineering, generative AI and practical interaction with modern AI systems."
+        },
+        "awsAiPractitioner": {
+        "title": "AWS Certified AI Practitioner",
+        "description": "Preparation focused on foundational AI, machine learning, generative AI and AWS artificial intelligence services."
+        },
+        "relationalDatabase": {
+        "title": "Relational Database Design and Advanced Querying",
+        "description": "Course focused on relational database design, SQL and advanced data querying concepts."
+        },
+        "scrumFundamentals": {
+        "title": "Scrum Fundamentals",
+        "description": "Introduction to Scrum methodology, roles, events and artifacts for effective agile project management."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "LET'S CONNECT",
+    "title": "Get in Touch",
+    "description": "I’m always open to new opportunities, collaborations and conversations about software testing, automation and quality engineering.",
+    "emailLabel": "Email",
+    "linkedinLabel": "LinkedIn",
+    "githubLabel": "GitHub",
+    "locationLabel": "Location",
+    "locationValue": "Dominican Republic",
+    "form": {
+        "title": "Send me a message",
+        "name": "Name",
+        "namePlaceholder": "Your name",
+        "email": "Email",
+        "emailPlaceholder": "your@email.com",
+        "subject": "Subject",
+        "subjectPlaceholder": "How can I help?",
+        "message": "Message",
+        "messagePlaceholder": "Tell me about your opportunity...",
+        "submit": "Send Message"
+    }
   }
 }
