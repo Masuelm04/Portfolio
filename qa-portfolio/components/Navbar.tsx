@@ -11,7 +11,18 @@ export default function Navbar() {
   const t = translations[language].navbar;
 
   return (
-    <header className="fixed left-0 top-0 z-50 w-full border-b border-gray-200 bg-white/80 backdrop-blur-md dark:border-gray-800 dark:bg-gray-950/80">
+    <header className="
+    fixed left-0 top-0 z-50 w-full
+    border-b border-slate-200/80
+    bg-white/90
+    text-slate-900
+    backdrop-blur-xl
+    transition-colors duration-300
+
+    dark:border-slate-800
+    dark:bg-[#020817]/95
+    dark:text-white
+  ">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <div className="text-lg font-bold">
           Masuel Matos

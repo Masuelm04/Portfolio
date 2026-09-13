@@ -6,5 +6,159 @@
     "projects": "Projects",
     "certifications": "Certifications",
     "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "QA ENGINEER | QA AUTOMATION",
+    "title": "Building reliable software through testing and automation.",
+    "description": "QA Engineer and Computer Systems Engineer focused on functional testing and test automation. I build reliable and maintainable testing solutions using Playwright, Python and modern QA practices.",
+    "projectsButton": "View My Projects",
+    "cvButton": "Download CV",
+    "projectsStat": "QA Automation Projects",
+    "technologiesStat": "Core Technologies",
+    "focusStat": "Testing Focus"
+  },
+  "about": {
+    "eyebrow": "GET TO KNOW ME",
+    "title": "About Me",
+    "paragraph1": "I’m a Computer Systems Engineer and QA Engineer focused on software quality, functional testing, and test automation. I enjoy building reliable testing solutions that help detect issues early, improve product stability, and support better user experiences.",
+    "paragraph2": "My current focus is QA Automation, working mainly with Playwright, Python, Pytest, API testing, and modern testing practices. I’m continuously strengthening my skills in automation architecture, cross-browser testing, test stability, reporting, and quality engineering.",
+    "paragraph3": "I’m motivated by continuous learning, problem-solving, and creating maintainable solutions that contribute to more efficient and reliable software development processes.",
+    "location": "Dominican Republic",
+    "role": "QA Engineer",
+    "education": "Computer Systems Engineer",
+    "availability": "Open to opportunities",
+    "strengths": {
+      "analytical": {
+        "title": "Analytical Mindset",
+        "description": "Detail-oriented and curious"
+      },
+      "problemSolver": {
+        "title": "Problem Solver",
+        "description": "Turning ideas into solutions"
+      },
+      "teamPlayer": {
+        "title": "Team Player",
+        "description": "Open to collaboration"
+      },
+      "learner": {
+        "title": "Continuous Learner",
+        "description": "Always improving my skills"
+      }
+    }
+  },
+  "skills": {
+    "eyebrow": "TECH STACK",
+    "title": "Skills & Technologies",
+    "description": "Tools and technologies I use to design, execute and automate tests across web, API and data layers.",
+    "categories": {
+        "automation": {
+        "title": "Automation",
+        "items": [
+            "Playwright",
+            "Pytest",
+            "Test Automation",
+            "Page Object Model",
+            "Cross-Browser Testing",
+            "Network Inspection & Mocking",
+            "Test Reporting & Evidence"
+        ]
+        },
+        "programming": {
+        "title": "Programming",
+        "items": [
+            "Python",
+            "TypeScript (Learning)",
+            "C# (Basic)"
+        ]
+        },
+        "testing": {
+        "title": "Testing",
+        "items": [
+            "Functional Testing",
+            "Regression Testing",
+            "End-to-End Testing",
+            "API Testing",
+            "Exploratory Testing",
+            "Test Case Design",
+            "Bug Reporting"
+        ]
+        },
+        "apis": {
+        "title": "API & Tools",
+        "items": [
+            "Postman",
+            "cURL",
+            "ReadyAPI",
+            "JSON",
+            "REST APIs"
+        ]
+        },
+        "databases": {
+        "title": "Databases",
+        "items": [
+            "SQL",
+            "Data Validation",
+            "Basic Queries",
+            "Relational Databases"
+        ]
+        },
+        "engineering": {
+        "title": "Engineering Tools",
+        "items": [
+            "Git",
+            "GitHub",
+            "GitHub Desktop",
+            "VS Code",
+            "GitHub Actions (Learning)"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "eyebrow": "FEATURED WORK",
+    "title": "Projects",
+    "description": "A selection of QA automation projects built to demonstrate practical testing skills, maintainable architecture and modern quality engineering practices.",
+    "featured": "Featured Project",
+    "practice": "Lab & Practice",
+    "githubButton": "View on GitHub",
+    "highlightsTitle": "Highlights",
+    "items": {
+        "automationExercise": {
+        "title": "AutomationExercise E2E Playwright Framework",
+        "description": "End-to-end automation framework built with Python, Pytest and Playwright, implementing reusable architecture, API/UI integration, cross-browser execution, reporting and CI/CD.",
+        "highlights": [
+            "Page Object Model",
+            "Data-Driven Testing",
+            "API/UI Integration",
+            "Cross-Browser Execution",
+            "HTML Reporting",
+            "CI/CD"
+        ]
+        },
+        "sauceDemo": {
+        "title": "SauceDemo Playwright Python Framework",
+        "description": "Web automation framework developed with Python, Pytest and Playwright, focused on reusable test design, stability and maintainable automation practices.",
+        "highlights": [
+            "Page Object Model",
+            "Fixtures",
+            "Parametrization",
+            "Pytest Marks",
+            "Auto Waiting",
+            "Execution Evidence"
+        ]
+        },
+        "apiFramework": {
+        "title": "Pytest API Testing Framework",
+        "description": "Layered REST API automation framework built with Python and Pytest, implementing Services, Models, Fixtures, Mocks, code coverage and HTML reporting.",
+        "highlights": [
+            "REST API Testing",
+            "Layered Architecture",
+            "Services & Models",
+            "Fixtures",
+            "Mocks",
+            "Code Coverage"
+        ]
+      }
+    }
   }
 }

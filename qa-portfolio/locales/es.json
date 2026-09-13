@@ -6,5 +6,159 @@
     "projects": "Proyectos",
     "certifications": "Certificaciones",
     "contact": "Contacto"
+  },
+  "hero": {
+    "eyebrow": "QA ENGINEER | QA AUTOMATION",
+    "title": "Construyendo software confiable mediante testing y automatización.",
+    "description": "QA Engineer e Ingeniero en Sistemas Computacionales enfocado en pruebas funcionales y automatización de pruebas. Desarrollo soluciones de testing confiables y mantenibles utilizando Playwright, Python y prácticas modernas de QA.",
+    "projectsButton": "Ver mis proyectos",
+    "cvButton": "Descargar CV",
+    "projectsStat": "Proyectos de QA Automation",
+    "technologiesStat": "Tecnologías principales",
+    "focusStat": "Enfoque de testing"
+  },
+  "about": {
+    "eyebrow": "CONÓCEME",
+    "title": "Sobre mí",
+    "paragraph1": "Soy Ingeniero en Sistemas Computacionales y QA Engineer enfocado en calidad de software, pruebas funcionales y automatización de pruebas. Me gusta desarrollar soluciones de testing confiables que permitan detectar incidencias de forma temprana, mejorar la estabilidad del producto y contribuir a una mejor experiencia de usuario.",
+    "paragraph2": "Actualmente estoy enfocado en QA Automation, trabajando principalmente con Playwright, Python, Pytest, pruebas de API y prácticas modernas de testing. Continúo fortaleciendo mis conocimientos en arquitectura de automatización, pruebas cross-browser, estabilidad de pruebas, reporting y quality engineering.",
+    "paragraph3": "Me motiva el aprendizaje continuo, la resolución de problemas y la creación de soluciones mantenibles que aporten a procesos de desarrollo de software más eficientes y confiables.",
+    "location": "República Dominicana",
+    "role": "QA Engineer",
+    "education": "Ingeniero en Sistemas Computacionales",
+    "availability": "Abierto a oportunidades",
+    "strengths": {
+      "analytical": {
+        "title": "Mentalidad analítica",
+        "description": "Detallista y curioso"
+      },
+      "problemSolver": {
+        "title": "Resolución de problemas",
+        "description": "Transformo ideas en soluciones"
+      },
+      "teamPlayer": {
+        "title": "Trabajo en equipo",
+        "description": "Abierto a colaborar"
+      },
+      "learner": {
+        "title": "Aprendizaje continuo",
+        "description": "Siempre fortaleciendo mis habilidades"
+      }
+    }
+  },
+  "skills": {
+    "eyebrow": "STACK TÉCNICO",
+    "title": "Habilidades y Tecnologías",
+    "description": "Herramientas y tecnologías que utilizo para diseñar, ejecutar y automatizar pruebas web, API y validaciones de datos.",
+    "categories": {
+        "automation": {
+        "title": "Automatización",
+        "items": [
+            "Playwright",
+            "Pytest",
+            "Automatización de pruebas",
+            "Page Object Model",
+            "Pruebas Cross-Browser",
+            "Inspección y Mocking de Red",
+            "Reporting y Evidencias"
+        ]
+        },
+        "programming": {
+        "title": "Programación",
+        "items": [
+            "Python",
+            "TypeScript (En aprendizaje)",
+            "C# (Básico)"
+        ]
+        },
+        "testing": {
+        "title": "Testing",
+        "items": [
+            "Pruebas Funcionales",
+            "Pruebas de Regresión",
+            "Pruebas End-to-End",
+            "Pruebas de API",
+            "Pruebas Exploratorias",
+            "Diseño de Casos de Prueba",
+            "Reporte de Defectos"
+        ]
+        },
+        "apis": {
+        "title": "API y Herramientas",
+        "items": [
+            "Postman",
+            "cURL",
+            "ReadyAPI",
+            "JSON",
+            "APIs REST"
+        ]
+        },
+        "databases": {
+        "title": "Bases de Datos",
+        "items": [
+            "SQL",
+            "Validación de Datos",
+            "Consultas Básicas",
+            "Bases de Datos Relacionales"
+        ]
+        },
+        "engineering": {
+        "title": "Herramientas de Ingeniería",
+        "items": [
+            "Git",
+            "GitHub",
+            "GitHub Desktop",
+            "VS Code",
+            "GitHub Actions (En aprendizaje)"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "eyebrow": "PROYECTOS DESTACADOS",
+    "title": "Proyectos",
+    "description": "Selección de proyectos de QA Automation desarrollados para demostrar habilidades prácticas de testing, arquitectura mantenible y prácticas modernas de quality engineering.",
+    "featured": "Proyecto Destacado",
+    "practice": "Laboratorio y Práctica",
+    "githubButton": "Ver en GitHub",
+    "highlightsTitle": "Características",
+    "items": {
+        "automationExercise": {
+        "title": "AutomationExercise E2E Playwright Framework",
+        "description": "Framework de automatización end-to-end desarrollado con Python, Pytest y Playwright, implementando arquitectura reutilizable, integración API/UI, ejecución cross-browser, reporting y CI/CD.",
+        "highlights": [
+            "Page Object Model",
+            "Data-Driven Testing",
+            "Integración API/UI",
+            "Ejecución Cross-Browser",
+            "Reportes HTML",
+            "CI/CD"
+        ]
+        },
+        "sauceDemo": {
+        "title": "SauceDemo Playwright Python Framework",
+        "description": "Framework de automatización web desarrollado con Python, Pytest y Playwright, enfocado en diseño reutilizable, estabilidad y buenas prácticas de automatización.",
+        "highlights": [
+            "Page Object Model",
+            "Fixtures",
+            "Parametrización",
+            "Pytest Marks",
+            "Auto Waiting",
+            "Evidencias de Ejecución"
+        ]
+        },
+        "apiFramework": {
+        "title": "Pytest API Testing Framework",
+        "description": "Framework de automatización para APIs REST desarrollado con Python y Pytest, utilizando arquitectura por capas, Services, Models, Fixtures, Mocks, cobertura de código y reportes HTML.",
+        "highlights": [
+            "Testing de APIs REST",
+            "Arquitectura por Capas",
+            "Services & Models",
+            "Fixtures",
+            "Mocks",
+            "Cobertura de Código"
+        ]
+      }
+    }
   }
 }
