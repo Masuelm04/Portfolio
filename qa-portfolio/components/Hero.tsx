@@ -20,18 +20,25 @@ export default function Hero() {
         from-white
         via-slate-50
         to-blue-50/60
-        px-4 py-20
+
+        px-4
+        pb-20
+        pt-32
+
         text-slate-900
         transition-colors duration-300
 
-        sm:px-6 sm:py-24
+        sm:px-6
+        sm:pb-24
+        sm:pt-36
+
         lg:px-8
 
         dark:from-[#020817]
         dark:via-[#030a18]
         dark:to-[#061329]
         dark:text-slate-100
-      "
+    "
     >
       <div className="mx-auto grid max-w-7xl items-center gap-14 lg:grid-cols-2">
         {/* Left Column */}
