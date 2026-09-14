@@ -70,7 +70,7 @@
         "items": [
             "Python",
             "TypeScript (En aprendizaje)",
-            "C# (Básico)"
+            "C#"
         ]
         },
         "testing": {
@@ -111,7 +111,7 @@
             "GitHub",
             "GitHub Desktop",
             "VS Code",
-            "GitHub Actions (En aprendizaje)"
+            "GitHub Actions"
         ]
       }
     }
