@@ -16,7 +16,8 @@
     "cvButton": "Descargar CV",
     "projectsStat": "Proyectos de QA Automation",
     "technologiesStat": "Tecnologías principales",
-    "focusStat": "Enfoque de testing"
+    "focusStat": "Enfoque de testing",
+    "focusValue": "Web · API · Funcional"
     },
   "about": {
     "eyebrow": "CONÓCEME",
@@ -25,7 +26,7 @@
     "paragraph2": "Actualmente estoy enfocado en QA Automation, trabajando principalmente con Playwright, Python, Pytest, pruebas de API y prácticas modernas de testing. Continúo fortaleciendo mis conocimientos en arquitectura de automatización, pruebas cross-browser, estabilidad de pruebas, reporting y quality engineering.",
     "paragraph3": "Me motiva el aprendizaje continuo, la resolución de problemas y la creación de soluciones mantenibles que aporten a procesos de desarrollo de software más eficientes y confiables.",
     "location": "República Dominicana",
-    "role": "QA Engineer",
+    "role": "Ingeniero QA",
     "education": "Ingeniero en Sistemas Computacionales",
     "availability": "Abierto a oportunidades",
     "strengths": {
@@ -196,7 +197,7 @@
   "contact": {
     "eyebrow": "CONECTEMOS",
     "title": "Contacto",
-    "description": "Siempre estoy abierto a nuevas oportunidades, colaboraciones y conversaciones sobre testing de software, automatización y quality engineering.",
+    "description": "Siempre estoy abierto a nuevas oportunidades, colaboraciones y conversaciones sobre testing de software, automatización e ingeniería de la calidad.",
     "emailLabel": "Correo",
     "linkedinLabel": "LinkedIn",
     "githubLabel": "GitHub",

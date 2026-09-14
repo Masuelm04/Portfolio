@@ -281,7 +281,7 @@ export default function Hero() {
         />
 
         <Stat
-          value="Web · API · Functional"
+          value={t.focusValue}
           label={t.focusStat}
         />
       </div>

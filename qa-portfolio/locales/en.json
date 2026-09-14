@@ -16,7 +16,8 @@
     "cvButton": "Download CV",
     "projectsStat": "QA Automation Projects",
     "technologiesStat": "Core Technologies",
-    "focusStat": "Testing Focus"
+    "focusStat": "Testing Focus",
+    "focusValue": "Web · API · Functional"
     },
   "about": {
     "eyebrow": "GET TO KNOW ME",

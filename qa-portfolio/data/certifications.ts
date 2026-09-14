@@ -25,7 +25,7 @@ export const certifications: Certification[] = [
     id: "promptEngineering",
     provider: "Udemy",
     date: "Jul 2026",
-    certificateUrl: "ude.my/UC-ef934661-54c3-4ec3-9b5e-131d552bbde4",
+    certificateUrl: "https://www.udemy.com/certificate/UC-ef934661-54c3-4ec3-9b5e-131d552bbde4/",
     status: "completed",
   },
   {
