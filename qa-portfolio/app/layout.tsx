@@ -5,9 +5,56 @@ import Navbar from "@/components/Navbar";
 import { LanguageProvider } from "@/components/LanguageProvider";
 
 export const metadata: Metadata = {
-  title: "Masuel Matos | QA Engineer",
+  title: {
+    default: "Masuel Matos | QA Engineer Portfolio",
+    template: "%s | Masuel Matos",
+  },
+
   description:
-    "QA Engineer portfolio focused on software testing and QA Automation.",
+    "QA Engineer and Computer Systems Engineer focused on software testing, QA Automation, Playwright, Python, Pytest and API testing.",
+
+  keywords: [
+    "Masuel Matos",
+    "QA Engineer",
+    "QA Automation",
+    "Software Testing",
+    "Playwright",
+    "Python",
+    "Pytest",
+    "API Testing",
+    "Test Automation",
+    "Quality Assurance",
+  ],
+
+  authors: [
+    {
+      name: "Masuel Matos",
+    },
+  ],
+
+  creator: "Masuel Matos",
+
+  openGraph: {
+    title: "Masuel Matos | QA Engineer",
+    description:
+      "QA Engineer portfolio focused on software testing and QA Automation with Playwright, Python and Pytest.",
+    type: "website",
+    locale: "en_US",
+    alternateLocale: "es_DO",
+    siteName: "Masuel Matos Portfolio",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Masuel Matos | QA Engineer",
+    description:
+      "QA Engineer portfolio focused on software testing and QA Automation.",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({

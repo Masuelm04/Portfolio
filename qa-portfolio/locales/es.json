@@ -215,5 +215,9 @@
         "messagePlaceholder": "Cuéntame sobre tu oportunidad...",
         "submit": "Enviar mensaje"
     }
+  },
+  "footer": {
+    "role": "QA Engineer | QA Automation",
+    "rights": "Todos los derechos reservados."
   }
 }
