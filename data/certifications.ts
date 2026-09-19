@@ -25,7 +25,7 @@ export const certifications: Certification[] = [
     id: "fullStackDeveloper",
     provider: "Talento Digital",
     date: "Sep 2026",
-    certificateUrl: "a",
+    certificateUrl: "/certificates/fullstack-developer-certificate.jpeg",
     image: "/images/certifications/full-stack-developer.png",
     status: "completed",
   },
