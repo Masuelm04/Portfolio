@@ -29,6 +29,11 @@
     "role": "QA Engineer",
     "education": "Computer Systems Engineer",
     "availability": "Open to opportunities",
+    "languages": {
+      "title": "Languages",
+      "spanish": "Spanish",
+      "english": "English"
+    },
     "strengths": {
       "analytical": {
         "title": "Analytical Mindset",
@@ -181,6 +186,10 @@
     "quote": "Education is the foundation for building better solutions.",
     "continueLearning": "KEEP LEARNING, KEEP GROWING",
     "items": {
+        "fullStackDeveloper": {
+        "title": "Full Stack Developer",
+        "description": "Certification in full stack development, focusing on modern web technologies and best practices."
+        },
         "playwrightPower": {
         "title": "Playwright Power Techniques: Fast and Reliable Web Testing",
         "description": "Advanced Playwright techniques focused on reliable, efficient and maintainable web automation."

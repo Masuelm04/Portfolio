@@ -1,5 +1,5 @@
 export type CertificationId =
-  // | "fullStackDeveloper"
+  | "fullStackDeveloper"
   | "playwrightPower"
   | "promptEngineering"
   | "awsAiPractitioner"
@@ -21,13 +21,14 @@ export interface Certification {
 }
 
 export const certifications: Certification[] = [
-  // {
-  //   id: "fullStackDeveloper",
-  //   provider: "INDOTEL",
-  //   date: "Sep 2026",
-  //   certificateUrl: "",
-  //   status: "completed",
-  // },
+  {
+    id: "fullStackDeveloper",
+    provider: "Talento Digital",
+    date: "Sep 2026",
+    certificateUrl: "a",
+    image: "/images/certifications/full-stack-developer.png",
+    status: "completed",
+  },
   {
     id: "playwrightPower",
     provider: "Coursera",
@@ -60,7 +61,7 @@ export const certifications: Certification[] = [
     id: "scrumFundamentals",
     provider: "VMEdu",
     date: "Jun 2026",
-    certificateUrl: "https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/ScrumFundamentalsCertified-MasuelMatosMontero-1168704.pdf",
+    certificateUrl: "/certificates/scrum-fundamentals-certificate.jpg",
     image: "/images/certifications/scrum-fundamentals.png",
     status: "completed",
   },
@@ -68,7 +69,7 @@ export const certifications: Certification[] = [
     id: "readyApi",
     provider: "SmartBear",
     date: "May 2026",
-    certificateUrl: "",
+    certificateUrl: "/certificates/ready-api-certificate.jpg",
     image: "/images/certifications/ready-api-1.png",
     status: "completed",
   },
@@ -84,7 +85,7 @@ export const certifications: Certification[] = [
     id: "englishImmersionProgram",
     provider: "Ministerio de Educación Superior, Ciencia y Tecnología (MESCyT)",
     date: "Dec 2023",
-    certificateUrl: "a",
+    certificateUrl: "/certificates/english-immersion-program-certificate.pdf",
     image: "/images/certifications/english-immersion-program.png",
     status: "completed",
   },

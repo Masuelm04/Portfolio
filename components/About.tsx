@@ -11,6 +11,7 @@ import {
   BriefcaseBusiness,
   GraduationCap,
   Rocket,
+  Languages,
 } from "lucide-react";
 
 import { useLanguage } from "./LanguageProvider";
@@ -29,12 +30,14 @@ export default function About() {
         text-slate-900
         transition-colors duration-300
 
-        sm:px-6 sm:py-24
+        sm:px-6
+        sm:py-24
+
         lg:px-8
 
         dark:bg-[#0f172a]
         dark:text-slate-100
-    "
+      "
     >
       <div className="mx-auto max-w-7xl">
         {/* Section Header */}
@@ -56,11 +59,13 @@ export default function About() {
 
           <h2
             className="
-              text-4xl
+              text-3xl
               font-bold
               tracking-tight
               text-slate-950
-              sm:text-5xl
+
+              sm:text-4xl
+              lg:text-5xl
 
               dark:text-white
             "
@@ -73,6 +78,7 @@ export default function About() {
         <div className="grid gap-12 lg:grid-cols-[1.4fr_0.8fr]">
           {/* Left Column */}
           <div>
+            {/* About Text */}
             <div
               className="
                 space-y-6
@@ -84,13 +90,11 @@ export default function About() {
               "
             >
               <p>{t.paragraph1}</p>
-
               <p>{t.paragraph2}</p>
-
               <p>{t.paragraph3}</p>
             </div>
 
-            {/* Info Cards */}
+            {/* General Info */}
             <div className="mt-10 grid gap-4 sm:grid-cols-2">
               <InfoCard
                 icon={<MapPin size={20} />}
@@ -111,6 +115,50 @@ export default function About() {
                 icon={<Rocket size={20} />}
                 label={t.availability}
               />
+            </div>
+
+            {/* Languages */}
+            <div className="mt-10">
+              <div className="mb-4 flex items-center gap-3">
+                <div
+                  className="
+                    flex h-10 w-10
+                    items-center justify-center
+                    rounded-lg
+                    bg-blue-50
+                    text-blue-600
+
+                    dark:bg-blue-500/10
+                    dark:text-blue-400
+                  "
+                >
+                  <Languages size={20} />
+                </div>
+
+                <h3
+                  className="
+                    text-lg
+                    font-semibold
+                    text-slate-950
+
+                    dark:text-white
+                  "
+                >
+                  {t.languages.title}
+                </h3>
+              </div>
+
+              <div className="grid gap-4 sm:grid-cols-2">
+                <LanguageCard
+                  code="ES"
+                  language={t.languages.spanish}
+                />
+
+                <LanguageCard
+                  code="EN"
+                  language={t.languages.english}
+                />
+              </div>
             </div>
           </div>
 
@@ -199,6 +247,66 @@ function InfoCard({
         "
       >
         {label}
+      </span>
+    </div>
+  );
+}
+
+function LanguageCard({
+  code,
+  language,
+}: {
+  code: string;
+  language: string;
+}) {
+  return (
+    <div
+      className="
+        flex items-center gap-4
+        rounded-xl
+        border border-slate-200
+        bg-white
+        p-5
+        shadow-sm
+        transition duration-300
+
+        hover:-translate-y-0.5
+        hover:border-blue-300
+        hover:shadow-md
+
+        dark:border-slate-700
+        dark:bg-[#020817]
+        dark:hover:border-blue-500/60
+      "
+    >
+      <div
+        className="
+          flex h-10 w-10
+          shrink-0
+          items-center
+          justify-center
+          rounded-lg
+          bg-blue-50
+          text-sm
+          font-bold
+          text-blue-600
+
+          dark:bg-blue-500/10
+          dark:text-blue-400
+        "
+      >
+        {code}
+      </div>
+
+      <span
+        className="
+          font-medium
+          text-slate-900
+
+          dark:text-slate-100
+        "
+      >
+        {language}
       </span>
     </div>
   );

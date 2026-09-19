@@ -29,6 +29,11 @@
     "role": "Ingeniero QA",
     "education": "Ingeniero en Sistemas Computacionales",
     "availability": "Abierto a oportunidades",
+    "languages": {
+      "title": "Idiomas",
+      "spanish": "Español",
+      "english": "Inglés"
+    },
     "strengths": {
       "analytical": {
         "title": "Mentalidad analítica",
@@ -181,6 +186,10 @@
     "quote": "La educación es la base para construir mejores soluciones.",
     "continueLearning": "SEGUIR APRENDIENDO, SEGUIR CRECIENDO",
     "items": {
+      "fullStackDeveloper": {
+        "title": "Desarrollador Full Stack",
+        "description": "Certificación en desarrollo full stack, enfocada en tecnologías web modernas y mejores prácticas."
+      },
         "playwrightPower": {
         "title": "Playwright Power Techniques: Fast and Reliable Web Testing",
         "description": "Técnicas avanzadas de Playwright enfocadas en automatización web confiable, eficiente y mantenible."
