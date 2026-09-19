@@ -3,6 +3,7 @@
 import { projects } from "@/data/projects";
 import { useLanguage } from "./LanguageProvider";
 import { translations } from "./translations";
+import Image from "next/image";
 
 export default function Projects() {
   const { language } = useLanguage();
@@ -46,6 +47,7 @@ export default function Projects() {
             return (
               <ProjectCard
                 key={project.id}
+                image={project.image}
                 title={content.title}
                 description={content.description}
                 highlights={content.highlights}
@@ -67,6 +69,7 @@ export default function Projects() {
 }
 
 function ProjectCard({
+  image,
   title,
   description,
   highlights,
@@ -79,6 +82,7 @@ function ProjectCard({
   githubLabel,
   highlightsTitle,
 }: {
+  image: string;
   title: string;
   description: string;
   highlights: string[];
@@ -94,6 +98,7 @@ function ProjectCard({
   return (
     <article
       className={`
+        group
         relative flex h-full flex-col
         rounded-2xl
         border
@@ -114,6 +119,38 @@ function ProjectCard({
         }
       `}
     >
+
+      <div
+        className="
+          relative
+          mb-6
+          aspect-[16/9]
+          overflow-hidden
+          rounded-xl
+          border border-slate-200
+          bg-slate-100
+
+          dark:border-slate-700
+          dark:bg-slate-900
+        "
+      >
+        <Image
+          src={image}
+          alt={`${title} project preview`}
+          fill
+          sizes="
+            (max-width: 768px) 100vw,
+            (max-width: 1200px) 50vw,
+            600px
+          "
+          className="
+            object-cover
+            transition duration-500
+            group-hover:scale-[1.02]
+          "
+        />
+      </div>
+
       <div className="mb-5 flex flex-wrap gap-2">
         {featured && (
           <span className="rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-700 dark:bg-blue-500/10 dark:text-blue-300">

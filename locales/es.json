@@ -170,7 +170,16 @@
     "completed": "Completado",
     "inProgress": "En progreso",
     "viewCertificate": "Ver certificado",
+    "viewProgress": "Ver progreso",
     "viewDetails": "Ver detalles",
+    "skillsTitle": "Nuevas habilidades",
+    "skillsSubtitle": "Crecimiento profesional",
+    "technologyTitle": "Tecnologías actuales",
+    "technologySubtitle": "Siempre actualizado",
+    "futureTitle": "Un mejor futuro",
+    "futureSubtitle": "Aprendizaje sin límites",
+    "quote": "La educación es la base para construir mejores soluciones.",
+    "continueLearning": "SEGUIR APRENDIENDO, SEGUIR CRECIENDO",
     "items": {
         "playwrightPower": {
         "title": "Playwright Power Techniques: Fast and Reliable Web Testing",
@@ -191,7 +200,27 @@
         "scrumFundamentals": {
         "title": "Scrum Fundamentals",
         "description": "Introducción a la metodología Scrum, roles, eventos y artefactos para una gestión ágil de proyectos efectiva."
-      }
+        },
+        "readyApi": {
+        "title": "ReadyAPI Functional Testing",
+        "description": "Formación enfocada en testing de API, automatización y mejores prácticas usando ReadyAPI."
+        },
+        "tester": {
+        "title": "Tester",
+        "description": "Certificación en testing de software y aseguramiento de la calidad."
+        },
+        "englishImmersionProgram": {
+        "title": "English Immersion Program",
+        "description": "Programa inmersivo de idioma inglés enfocado en comunicación profesional y desarrollo de carrera."
+        },
+        "cSharpIntermediate": {
+        "title": "C# Intermediate",
+        "description": "Curso intermedio en programación C#, enfocado en conceptos avanzados y mejores prácticas."
+        },
+        "cSharpWithMicrosoft": {
+        "title": "Foundational C# with Microsoft",
+        "description": "Curso completo de programación en C#, centrado en los conceptos fundamentales y las mejores prácticas."
+        }
     }
   },
   "contact": {

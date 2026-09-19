@@ -7,6 +7,7 @@ export interface Project {
   id: ProjectId;
   technologies: string[];
   githubUrl: string;
+  image: string;
   featured?: boolean;
   practice?: boolean;
 }
@@ -23,6 +24,8 @@ export const projects: Project[] = [
       "CI/CD",
     ],
     githubUrl: "https://github.com/Masuelm04/AutomationExercise-E2E-Playwright-Framework",
+    image:
+      "/images/projects/automation-exercise.png",
     featured: true,
   },
   {
@@ -34,6 +37,8 @@ export const projects: Project[] = [
       "POM",
     ],
     githubUrl: "https://github.com/Masuelm04/SauceDemo-Playwright-Python-Framework",
+    image:
+      "/images/projects/saucedemo.png",
   },
   {
     id: "apiFramework",
@@ -45,5 +50,7 @@ export const projects: Project[] = [
       "Coverage",
     ],
     githubUrl: "https://github.com/Masuelm04/Pytest-Api-Testing-Framework",
+    image:
+      "/images/projects/api-testing.png",
   },
 ];
