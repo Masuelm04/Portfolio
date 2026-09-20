@@ -70,7 +70,7 @@ export const certifications: Certification[] = [
     provider: "SmartBear",
     date: "May 2026",
     certificateUrl: "/certificates/ready-api-certificate.jpg",
-    image: "/images/certifications/ready-api-1.png",
+    image: "/images/certifications/ready-api-c.png",
     status: "completed",
   },
   {
