@@ -42,17 +42,23 @@ export default function Certifications() {
           relative
           overflow-hidden
           bg-gradient-to-br
-          from-[#07152f]
-          via-[#0a1d40]
-          to-[#0d2b61]
+          from-blue-50
+          via-white
+          to-slate-100
           px-4 py-16
+          transition-colors duration-300
 
           sm:px-6
           sm:py-20
 
           lg:px-8
+
+          dark:from-[#07152f]
+          dark:via-[#0a1d40]
+          dark:to-[#0d2b61]
         "
       >
+
         {/* Decorative glow */}
         <div
           className="
@@ -77,14 +83,18 @@ export default function Certifications() {
                 items-center
                 gap-2
                 rounded-full
-                border border-blue-400/30
-                bg-blue-400/10
+                border border-blue-200
+                bg-blue-50
                 px-4 py-2
                 text-xs
                 font-semibold
                 uppercase
                 tracking-[0.15em]
-                text-blue-200
+                text-blue-700
+
+                dark:border-blue-400/30
+                dark:bg-blue-400/10
+                dark:text-blue-200
               "
             >
               <GraduationCap size={16} />
@@ -96,10 +106,12 @@ export default function Certifications() {
                 text-4xl
                 font-bold
                 tracking-tight
-                text-white
+                text-slate-950
 
                 sm:text-5xl
                 lg:text-6xl
+
+                dark:text-white
               "
             >
               {t.title}
@@ -111,7 +123,9 @@ export default function Certifications() {
                 max-w-3xl
                 text-lg
                 leading-8
-                text-blue-100/90
+                text-slate-600
+
+                dark:text-blue-100/90
               "
             >
               {t.description}
@@ -285,10 +299,15 @@ function GrowthItem({
         items-center
         gap-4
         rounded-xl
-        border border-white/10
-        bg-white/5
+        border border-slate-200
+        bg-white/80
         p-4
+        shadow-sm
         backdrop-blur-sm
+        transition-colors duration-300
+
+        dark:border-white/10
+        dark:bg-white/5
       "
     >
       <div
@@ -298,20 +317,24 @@ function GrowthItem({
           items-center
           justify-center
           rounded-full
-          border border-blue-400/30
-          bg-blue-400/10
-          text-blue-300
+          border border-blue-200
+          bg-blue-50
+          text-blue-600
+
+          dark:border-blue-400/30
+          dark:bg-blue-400/10
+          dark:text-blue-300
         "
       >
         {icon}
       </div>
 
       <div>
-        <p className="font-semibold text-white">
+        <p className="font-semibold text-slate-950 dark:text-white">
           {title}
         </p>
 
-        <p className="mt-1 text-sm text-blue-100/70">
+        <p className="mt-1 text-sm text-slate-500 dark:text-blue-100/70">
           {subtitle}
         </p>
       </div>
