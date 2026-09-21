@@ -25,7 +25,7 @@ export default function About() {
     <section
       id="about"
       className="
-        section-surface-c
+        section-surface-b
         px-4 py-20
         
         sm:px-6
