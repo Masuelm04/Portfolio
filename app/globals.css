@@ -2,6 +2,20 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+@layer components {
+  .section-surface-a {
+    @apply bg-white text-slate-900 transition-colors duration-300 dark:bg-[#020817] dark:text-slate-100;
+  }
+
+  .section-surface-b {
+    @apply bg-slate-50 text-slate-900 transition-colors duration-300 dark:bg-[#0f172a] dark:text-slate-100;
+  }
+
+  .section-surface-c {
+    @apply bg-slate-100 text-slate-900 transition-colors duration-300 dark:bg-[#08111f] dark:text-slate-100;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }

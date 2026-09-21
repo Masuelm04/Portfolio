@@ -35,8 +35,8 @@ export default function Hero() {
         lg:px-8
 
         dark:from-[#020817]
-        dark:via-[#030a18]
-        dark:to-[#061329]
+        dark:via-[#07152f]
+        dark:to-[#0d2b61]
         dark:text-slate-100
     "
     >

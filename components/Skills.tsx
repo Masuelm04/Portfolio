@@ -49,16 +49,13 @@ export default function Skills() {
     <section
       id="skills"
       className="
-        bg-white
+        section-surface-b
         px-4 py-20
-        text-slate-900
-        transition-colors duration-300
 
-        sm:px-6 sm:py-24
+        sm:px-6
+        sm:py-24
+
         lg:px-8
-
-        dark:bg-[#0f172a]
-        dark:text-slate-100
       "
     >
       <div className="mx-auto max-w-7xl">
