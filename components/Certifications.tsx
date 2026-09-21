@@ -188,6 +188,7 @@ export default function Certifications() {
                 description={content.description}
                 provider={certification.provider}
                 date={certification.date}
+                language={language}
                 status={certification.status}
                 certificateUrl={
                   certification.certificateUrl
@@ -345,6 +346,7 @@ function GrowthItem({
 function CertificationCard({
   title,
   description,
+  language,
   provider,
   date,
   status,
@@ -359,6 +361,7 @@ function CertificationCard({
 }: {
   title: string;
   description: string;
+  language: "en" | "es";
   provider: string;
   date?: string;
   status: "completed" | "inProgress";
@@ -499,10 +502,14 @@ function CertificationCard({
           )}
 
           <span>
-            {date ??
-              (isCompleted
+            {date
+              ? formatCertificationDate(
+                  date,
+                  language
+                )
+              : isCompleted
                 ? completedLabel
-                : inProgressLabel)}
+                : inProgressLabel}
           </span>
         </div>
 
@@ -627,4 +634,27 @@ function StatusBadge({
         : inProgressLabel}
     </span>
   );
+}
+
+function formatCertificationDate(
+  date: string,
+  language: "en" | "es"
+) {
+  const [year, month] = date.split("-");
+
+  const formattedDate = new Intl.DateTimeFormat(
+    language === "es" ? "es-ES" : "en-US",
+    {
+      month: "short",
+      year: "numeric",
+    }
+  ).format(
+    new Date(
+      Number(year),
+      Number(month) - 1,
+      1
+    )
+  );
+
+  return formattedDate;
 }
