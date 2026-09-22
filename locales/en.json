@@ -58,65 +58,69 @@
     "title": "Skills & Technologies",
     "description": "Tools and technologies I use to design, execute and automate tests across web, API and data layers.",
     "categories": {
-        "automation": {
+      "automation": {
         "title": "Automation",
         "items": [
-            "Playwright",
-            "Pytest",
-            "Test Automation",
-            "Page Object Model",
-            "Cross-Browser Testing",
-            "Network Inspection & Mocking",
-            "Test Reporting & Evidence"
+          "Playwright",
+          "Pytest",
+          "Page Object Model",
+          "Fixtures & Parametrization",
+          "Cross-Browser Testing",
+          "Network Inspection & Mocking",
+          "Reporting & Test Evidence"
         ]
-        },
-        "programming": {
+      },
+      "programming": {
         "title": "Programming",
         "items": [
-            "Python",
-            "TypeScript (Learning)",
-            "C#"
+          "Python",
+          "TypeScript (Currently Learning)",
+          "C#"
         ]
-        },
-        "testing": {
-        "title": "Testing",
+      },
+      "testing": {
+        "title": "Testing & QA",
         "items": [
-            "Functional Testing",
-            "Regression Testing",
-            "End-to-End Testing",
-            "API Testing",
-            "Exploratory Testing",
-            "Test Case Design",
-            "Bug Reporting"
+          "Functional Testing",
+          "Regression Testing",
+          "End-to-End Testing",
+          "API Testing",
+          "Exploratory Testing",
+          "Test Case Design",
+          "Defect Reporting"
         ]
-        },
-        "apis": {
-        "title": "API & Tools",
+      },
+      "apis": {
+        "title": "APIs & Tools",
         "items": [
-            "Postman",
-            "cURL",
-            "ReadyAPI",
-            "JSON",
-            "REST APIs"
+          "Postman",
+          "SOAP",
+          "REST APIs",
+          "API Testing",
+          "cURL",
+          "ReadyAPI",
+          "JSON"
         ]
-        },
-        "databases": {
+      },
+      "databases": {
         "title": "Databases",
         "items": [
-            "SQL",
-            "Data Validation",
-            "Basic Queries",
-            "Relational Databases"
+          "SQL",
+          "Data Validation",
+          "Relational Databases",
+          "Data Integrity"
         ]
-        },
-        "engineering": {
+      },
+      "engineering": {
         "title": "Engineering Tools",
         "items": [
-            "Git",
-            "GitHub",
-            "GitHub Desktop",
-            "VS Code",
-            "GitHub Actions"
+          "Jira",
+          "Xray",
+          "Azure DevOps",
+          "Git",
+          "GitHub",
+          "GitHub Actions",
+          "VS Code"
         ]
       }
     }

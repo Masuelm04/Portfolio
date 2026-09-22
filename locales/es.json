@@ -58,65 +58,69 @@
     "title": "Habilidades y Tecnologías",
     "description": "Herramientas y tecnologías que utilizo para diseñar, ejecutar y automatizar pruebas web, API y validaciones de datos.",
     "categories": {
-        "automation": {
+      "automation": {
         "title": "Automatización",
         "items": [
-            "Playwright",
-            "Pytest",
-            "Automatización de pruebas",
-            "Page Object Model",
-            "Pruebas Cross-Browser",
-            "Inspección y Mocking de Red",
-            "Reporting y Evidencias"
+          "Playwright",
+          "Pytest",
+          "Page Object Model",
+          "Fixtures y Parametrización",
+          "Pruebas Cross-Browser",
+          "Inspección y Mocking de Red",
+          "Reporting y Evidencias"
         ]
-        },
-        "programming": {
+      },
+      "programming": {
         "title": "Programación",
         "items": [
-            "Python",
-            "TypeScript (En aprendizaje)",
-            "C#"
+          "Python",
+          "TypeScript (En aprendizaje)",
+          "C#"
         ]
-        },
-        "testing": {
-        "title": "Testing",
+      },
+      "testing": {
+        "title": "Testing y QA",
         "items": [
-            "Pruebas Funcionales",
-            "Pruebas de Regresión",
-            "Pruebas End-to-End",
-            "Pruebas de API",
-            "Pruebas Exploratorias",
-            "Diseño de Casos de Prueba",
-            "Reporte de Defectos"
+          "Pruebas Funcionales",
+          "Pruebas de Regresión",
+          "Pruebas End-to-End",
+          "Pruebas de API",
+          "Pruebas Exploratorias",
+          "Diseño de Casos de Prueba",
+          "Reporte de Defectos"
         ]
-        },
-        "apis": {
-        "title": "API y Herramientas",
+      },
+      "apis": {
+        "title": "APIs y Herramientas",
         "items": [
-            "Postman",
-            "cURL",
-            "ReadyAPI",
-            "JSON",
-            "APIs REST"
+          "Postman",
+          "SOAP",
+          "REST APIs",
+          "API Testing",
+          "cURL",
+          "ReadyAPI",
+          "JSON"
         ]
-        },
-        "databases": {
+      },
+      "databases": {
         "title": "Bases de Datos",
         "items": [
-            "SQL",
-            "Validación de Datos",
-            "Consultas Básicas",
-            "Bases de Datos Relacionales"
+          "SQL",
+          "Validación de Datos",
+          "Bases de Datos Relacionales",
+          "Integridad de Datos"
         ]
-        },
-        "engineering": {
+      },
+      "engineering": {
         "title": "Herramientas de Ingeniería",
         "items": [
-            "Git",
-            "GitHub",
-            "GitHub Desktop",
-            "VS Code",
-            "GitHub Actions"
+          "Jira",
+          "Xray",
+          "Azure DevOps",
+          "Git",
+          "GitHub",
+          "GitHub Actions",
+          "VS Code"
         ]
       }
     }
