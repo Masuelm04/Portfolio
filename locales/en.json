@@ -134,7 +134,7 @@
     "items": {
         "automationExercise": {
         "title": "AutomationExercise E2E Playwright Framework",
-        "description": "End-to-end automation framework built with Python, Pytest and Playwright, implementing reusable architecture, API/UI integration, cross-browser execution, reporting and CI/CD.",
+        "description": "Professional UI and API test automation framework developed using Python, Pytest, and Playwright for the Automation Exercise e-commerce application.",
         "highlights": [
             "Page Object Model",
             "Data-Driven Testing",
@@ -173,7 +173,7 @@
   "certifications": {
     "eyebrow": "CONTINUOUS LEARNING",
     "title": "Certifications",
-    "description": "Courses and certifications that support my professional growth in QA Automation, cloud, databases and artificial intelligence.",
+    "description": "Courses and certifications that support my professional growth.",
     "completed": "Completed",
     "inProgress": "In Progress",
     "viewCertificate": "View Certificate",
@@ -222,15 +222,15 @@
         },
         "englishImmersionProgram": {
         "title": "English Immersion Program",
-        "description": "Immersive English language program focused on professional communication and career development."
+        "description": "Intensive English program focused on strengthening verbal and written communication skills in professional environments, enabling effective collaboration with multidisciplinary and international teams."
         },
         "cSharpIntermediate": {
         "title": "C# Intermediate",
-        "description": "Intermediate course in C# programming, focusing on advanced concepts and best practices."
+        "description": "C# training focused on object-oriented programming, advanced language features, and best practices for developing robust, maintainable applications."
         },
         "cSharpWithMicrosoft": {
         "title": "Foundational C# with Microsoft",
-        "description": "Comprehensive course in C# programming, focusing on foundational concepts and best practices."
+        "description": "Official certification validating fundamental C# development knowledge, including language syntax, object-oriented programming principles, and core concepts of the .NET ecosystem."
         }
     }
   },

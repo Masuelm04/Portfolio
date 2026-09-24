@@ -86,7 +86,7 @@ export default function Contact() {
             <ContactCard
               icon={<Mail size={22} />}
               label={t.emailLabel}
-              value="masuelm04@gmail.com"
+              value="GMAIL"
               href="mailto:masuelm04@gmail.com"
             />
 

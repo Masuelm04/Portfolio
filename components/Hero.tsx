@@ -114,38 +114,6 @@ export default function Hero() {
             >
               {t.projectsButton}
             </a>
-
-            <a
-              href={
-                language === "es"
-                  ? "/cv/cv-es.pdf"
-                  : "/cv/cv-en.pdf"
-              }
-              download
-              className="
-                rounded-lg
-                border border-slate-300
-                bg-white
-                px-6 py-3
-                font-semibold
-                text-slate-800
-                shadow-sm
-                transition
-
-                hover:border-blue-400
-                hover:bg-blue-50
-                hover:text-blue-700
-
-                dark:border-slate-700
-                dark:bg-slate-900/50
-                dark:text-slate-100
-                dark:hover:border-blue-500
-                dark:hover:bg-slate-800
-                dark:hover:text-blue-400
-              "
-            >
-              {t.cvButton}
-            </a>
           </div>
 
           {/* Social Links */}

@@ -66,7 +66,7 @@
           "Fixtures y Parametrización",
           "Pruebas Cross-Browser",
           "Inspección y Mocking de Red",
-          "Reporting y Evidencias"
+          "Informes y Evidencias de Pruebas"
         ]
       },
       "programming": {
@@ -134,7 +134,7 @@
     "items": {
         "automationExercise": {
         "title": "AutomationExercise E2E Playwright Framework",
-        "description": "Framework de automatización end-to-end desarrollado con Python, Pytest y Playwright, implementando arquitectura reutilizable, integración API/UI, ejecución cross-browser, reporting y CI/CD.",
+        "description": "Framework profesional de automatización de pruebas UI y API desarrollado con Python, Pytest y Playwright para la aplicación de comercio electrónico Automation Exercise.",
         "highlights": [
             "Page Object Model",
             "Data-Driven Testing",
@@ -173,7 +173,7 @@
   "certifications": {
     "eyebrow": "APRENDIZAJE CONTINUO",
     "title": "Certificaciones",
-    "description": "Cursos y certificaciones que fortalecen mi desarrollo profesional en QA Automation, cloud, bases de datos e inteligencia artificial.",
+    "description": "Cursos y certificaciones que fortalecen mi desarrollo profesional.",
     "completed": "Completado",
     "inProgress": "En progreso",
     "viewCertificate": "Ver certificado",
@@ -222,15 +222,15 @@
         },
         "englishImmersionProgram": {
         "title": "English Immersion Program",
-        "description": "Programa inmersivo de idioma inglés enfocado en comunicación profesional y desarrollo de carrera."
+        "description": "Programa intensivo de inglés orientado al fortalecimiento de las habilidades de comunicación oral y escrita en entornos profesionales, facilitando la colaboración con equipos multidisciplinarios e internacionales."
         },
         "cSharpIntermediate": {
         "title": "C# Intermediate",
-        "description": "Curso intermedio en programación C#, enfocado en conceptos avanzados y mejores prácticas."
+        "description": "Capacitación en C# enfocada en programación orientada a objetos, estructuras avanzadas del lenguaje y buenas prácticas para el desarrollo de aplicaciones robustas y mantenibles."
         },
         "cSharpWithMicrosoft": {
         "title": "Foundational C# with Microsoft",
-        "description": "Curso completo de programación en C#, centrado en los conceptos fundamentales y las mejores prácticas."
+        "description": "Certificación oficial que acredita conocimientos fundamentales de desarrollo con C#, incluyendo sintaxis del lenguaje, programación orientada a objetos y fundamentos del ecosistema .NET."
         }
     }
   },
