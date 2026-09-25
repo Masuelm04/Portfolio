@@ -7,6 +7,7 @@ import LanguageSwitcher from "./LanguageSwitcher";
 import ThemeToggle from "./ThemeToggle";
 import { useLanguage } from "./LanguageProvider";
 import { translations } from "./translations";
+import Logo from "./Logo";
 
 export default function Navbar() {
   const { language } = useLanguage();
@@ -73,6 +74,9 @@ export default function Navbar() {
           lg:px-8
         "
       >
+
+        <Logo />
+
         {/* Logo / Name */}
         <a
           href="#home"
@@ -126,6 +130,7 @@ export default function Navbar() {
             type="button"
             onClick={() => setMenuOpen(!menuOpen)}
             className="
+              cursor-pointer
               flex h-10 w-10
               items-center
               justify-center

@@ -14,8 +14,8 @@ export default function LanguageSwitcher() {
         onClick={() => setLanguage("en")}
         className={
           language === "en"
-            ? "font-bold text-blue-600"
-            : "text-gray-500 dark:text-gray-400"
+            ? "cursor-pointer font-bold text-blue-600"
+            : "cursor-pointer text-gray-500 dark:text-gray-400"
         }
       >
         EN
@@ -30,8 +30,9 @@ export default function LanguageSwitcher() {
         onClick={() => setLanguage("es")}
         className={
           language === "es"
-            ? "font-bold text-blue-600"
-            : "text-gray-500 dark:text-gray-400"
+            ? "cursor-pointer font-bold text-blue-600"
+            : "cursor-pointer text-gray-500 dark:text-gray-400"
+            
         }
       >
         ES

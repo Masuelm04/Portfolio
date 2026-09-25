@@ -43,7 +43,7 @@ export default function ThemeToggle() {
     return (
       <button
         type="button"
-        className="rounded-lg border border-gray-300 px-3 py-2 text-sm dark:border-gray-700"
+        className="rounded-lg border border-gray-300 px-3 py-2 text-sm dark:border-gray-700 cursor-pointer"
         aria-label="Change theme"
       >
         ◐
@@ -59,7 +59,7 @@ export default function ThemeToggle() {
     <button
       type="button"
       onClick={toggleTheme}
-      className="rounded-lg border border-gray-300 px-3 py-2 text-sm transition hover:bg-gray-100 dark:border-gray-700 dark:hover:bg-gray-800"
+      className="rounded-lg border border-gray-300 px-3 cursor-pointer py-2 text-sm transition hover:bg-gray-100 dark:border-gray-700 dark:hover:bg-gray-800"
       aria-label="Change theme"
       title="Change theme"
     >
