@@ -75,13 +75,15 @@ export default function Navbar() {
         "
       >
 
-        <Logo />
-
         {/* Logo / Name */}
         <a
           href="#home"
           className="
+            flex
             shrink-0
+            items-center
+            gap-2.5
+            cursor-pointer
             text-lg
             font-bold
             text-slate-950
@@ -91,7 +93,11 @@ export default function Navbar() {
           onClick={closeMenu}
           aria-label="Go to home"
         >
-          Masuel Matos
+          <Logo />
+
+          <span>
+            Masuel Matos
+          </span>
         </a>
 
         {/* Desktop Navigation */}
