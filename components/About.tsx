@@ -86,7 +86,6 @@ export default function About() {
             >
               <p>{t.paragraph1}</p>
               <p>{t.paragraph2}</p>
-              <p>{t.paragraph3}</p>
             </div>
 
             {/* General Info */}
