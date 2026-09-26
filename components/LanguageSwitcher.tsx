@@ -7,8 +7,6 @@ export default function LanguageSwitcher() {
 
   return (
     <div className="flex items-center rounded-lg border border-gray-300 px-3 py-2 text-sm dark:border-gray-700">
-      <span className="mr-2">🌐</span>
-
       <button
         type="button"
         onClick={() => setLanguage("en")}
