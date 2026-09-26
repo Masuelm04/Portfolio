@@ -93,7 +93,12 @@ export default function Navbar() {
           onClick={closeMenu}
           aria-label="Go to home"
         >
-          <Logo />
+          
+          <img
+            src="/favicon.ico"
+            alt=""
+            className="w-8 h-8"
+          />
 
           <span>
             Masuel Matos

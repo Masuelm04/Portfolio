@@ -6,7 +6,7 @@ import { LanguageProvider } from "@/components/LanguageProvider";
 
 export const metadata: Metadata = {
   title: {
-    default: "Masuel Matos | QA Automation Engineer Portfolio",
+    default: "Masuel Matos | QA Engineer Portfolio",
     template: "%s | Masuel Matos",
   },
 
@@ -35,9 +35,9 @@ export const metadata: Metadata = {
   creator: "Masuel Matos",
 
   openGraph: {
-    title: "Masuel Matos | QA Automation Engineer",
+    title: "Masuel Matos | QA Engineer",
     description:
-      "QA Automation Engineer portfolio focused on software testing and QA Automation with Playwright, Python and Pytest.",
+      "QA Engineer portfolio focused on software testing and QA Automation with Playwright, Python and Pytest.",
     type: "website",
     locale: "en_US",
     alternateLocale: "es_DO",
@@ -46,9 +46,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Masuel Matos | QA Automation Engineer",
+    title: "Masuel Matos | QA Engineer",
     description:
-      "QA Automation Engineer portfolio focused on software testing and QA Automation.",
+      "QA Engineer portfolio focused on software testing and QA Automation.",
   },
 
   robots: {
