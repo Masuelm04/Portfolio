@@ -7,7 +7,6 @@ import LanguageSwitcher from "./LanguageSwitcher";
 import ThemeToggle from "./ThemeToggle";
 import { useLanguage } from "./LanguageProvider";
 import { translations } from "./translations";
-import Logo from "./Logo";
 
 export default function Navbar() {
   const { language } = useLanguage();
@@ -93,7 +92,7 @@ export default function Navbar() {
           onClick={closeMenu}
           aria-label="Go to home"
         >
-          
+
           <img
             src="/favicon.ico"
             alt=""
