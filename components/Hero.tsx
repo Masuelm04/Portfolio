@@ -16,6 +16,7 @@ export default function Hero() {
       id="home"
       className="
         min-h-screen
+        min-h-[100svh]
         bg-gradient-to-br
         from-white
         via-slate-50
