@@ -133,7 +133,7 @@
     "highlightsTitle": "Highlights",
     "items": {
         "automationExercise": {
-        "title": "AutomationExercise E2E Playwright Framework",
+        "title": "Automation Exercise — E2E Web & API Automation Framework",
         "description": "Professional UI and API test automation framework developed using Python, Pytest, and Playwright for the Automation Exercise e-commerce application.",
         "highlights": [
             "Page Object Model",
@@ -145,7 +145,7 @@
         ]
         },
         "sauceDemo": {
-        "title": "SauceDemo Playwright Python Framework",
+        "title": "Sauce Demo — Scalable Web Automation Framework",
         "description": "Web automation framework developed with Python, Pytest and Playwright, focused on reusable test design, stability and maintainable automation practices.",
         "highlights": [
             "Page Object Model",
@@ -157,7 +157,7 @@
         ]
         },
         "apiFramework": {
-        "title": "Pytest API Testing Framework",
+        "title": "FakeREST API — Layered API Automation Framework",
         "description": "Layered REST API automation framework built with Python and Pytest, implementing Services, Models, Fixtures, Mocks, code coverage and HTML reporting.",
         "highlights": [
             "REST API Testing",
