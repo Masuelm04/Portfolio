@@ -188,10 +188,14 @@
     "quote": "La educación es la base para construir mejores soluciones.",
     "continueLearning": "SEGUIR APRENDIENDO, SEGUIR CRECIENDO",
     "items": {
-      "fullStackDeveloper": {
-        "title": "Desarrollador Full Stack",
-        "description": "Certificación en desarrollo full stack, enfocada en tecnologías web modernas y mejores prácticas."
-      },
+        "awsAiPractitioner": {
+          "title": "AWS Certified AI Practitioner",
+          "description": "Preparación enfocada en fundamentos de IA, machine learning, IA generativa y servicios de inteligencia artificial en AWS."
+          },
+        "fullStackDeveloper": {
+          "title": "Desarrollador Full Stack",
+          "description": "Certificación en desarrollo full stack, enfocada en tecnologías web modernas y mejores prácticas."
+        },
         "playwrightPower": {
         "title": "Playwright Power Techniques: Fast and Reliable Web Testing",
         "description": "Técnicas avanzadas de Playwright enfocadas en automatización web confiable, eficiente y mantenible."
@@ -200,10 +204,7 @@
         "title": "The Complete Prompt Engineering for AI Bootcamp",
         "description": "Formación enfocada en prompt engineering, inteligencia artificial generativa e interacción práctica con sistemas modernos de IA."
         },
-        "awsAiPractitioner": {
-        "title": "AWS Certified AI Practitioner",
-        "description": "Preparación enfocada en fundamentos de IA, machine learning, IA generativa y servicios de inteligencia artificial en AWS."
-        },
+        
         "relationalDatabase": {
         "title": "Relational Database Design and Advanced Querying",
         "description": "Curso enfocado en diseño de bases de datos relacionales, SQL y conceptos avanzados de consultas de datos."

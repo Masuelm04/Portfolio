@@ -188,6 +188,10 @@
     "quote": "Education is the foundation for building better solutions.",
     "continueLearning": "KEEP LEARNING, KEEP GROWING",
     "items": {
+        "awsAiPractitioner": {
+        "title": "AWS Certified AI Practitioner",
+        "description": "Preparation focused on foundational AI, machine learning, generative AI and AWS artificial intelligence services."
+        },
         "fullStackDeveloper": {
         "title": "Full Stack Developer",
         "description": "Certification in full stack development, focusing on modern web technologies and best practices."
@@ -199,10 +203,6 @@
         "promptEngineering": {
         "title": "The Complete Prompt Engineering for AI Bootcamp",
         "description": "Training focused on prompt engineering, generative AI and practical interaction with modern AI systems."
-        },
-        "awsAiPractitioner": {
-        "title": "AWS Certified AI Practitioner",
-        "description": "Preparation focused on foundational AI, machine learning, generative AI and AWS artificial intelligence services."
         },
         "relationalDatabase": {
         "title": "Relational Database Design and Advanced Querying",

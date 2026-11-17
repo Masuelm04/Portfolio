@@ -22,6 +22,14 @@ export interface Certification {
 
 export const certifications: Certification[] = [
   {
+    id: "awsAiPractitioner",
+    provider: "Amazon Web Services",
+    date: "2026-11",
+    certificateUrl: "/certificates/aws-ai-practitioner.pdf",
+    image: "/images/certifications/aws-ai-practitioner_1.png",
+    status: "completed",
+  },
+  {
     id: "fullStackDeveloper",
     provider: "Talento Digital",
     date: "2026-09",
@@ -45,12 +53,6 @@ export const certifications: Certification[] = [
     image: "/images/certifications/prompt-engineering.png",
     status: "completed",
   },
-  // {
-  //   id: "awsAiPractitioner",
-  //   provider: "Amazon Web Services",
-  //   image: "/images/certifications/aws-ai-practitioner.png",
-  //   status: "inProgress",
-  // },
   // {
   //   id: "relationalDatabase",
   //   provider: "Coursera",
