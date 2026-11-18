@@ -25,7 +25,7 @@ export const certifications: Certification[] = [
     id: "awsAiPractitioner",
     provider: "Amazon Web Services",
     date: "2026-11",
-    certificateUrl: "/certificates/aws-ai-practitioner.pdf",
+    certificateUrl: "/certificates/aws-certified-ai-practitioner-1.png",
     image: "/images/certifications/aws-ai-practitioner_1.png",
     status: "completed",
   },
